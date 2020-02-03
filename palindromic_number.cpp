@@ -9,7 +9,7 @@ bool palindromic_number(int64_t n)
 {
   if (n < 0)
     return false;
-  if (n < b)
+  else if (n < b)
     return true;
   int64_t h = n;
   int64_t r = 0;
