@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-  vector<int> V = {1, 2, 3};
+  vector<int> V {1, 2, 3};
   size_t n = V.size();
   size_t m = pow(2, n);
   vector<bool> B(m + 1, false);
