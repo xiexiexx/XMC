@@ -13,7 +13,7 @@ bool palindromic_number(int64_t n)
     return true;
   int64_t h = n;
   int64_t r = 0;
-  while (h > b)
+  while (h >= b)
   {
     int64_t t = h / b;
     r = r * b + (h - t * b);
