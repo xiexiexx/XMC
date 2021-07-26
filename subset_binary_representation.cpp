@@ -9,7 +9,7 @@ int main()
   vector<int> V {1, 2, 3};
   size_t n = V.size();
   size_t m = pow(2, n);
-  vector<bool> B(m + 1, false);
+  vector<bool> B(n + 1, false);
   for (size_t i = 0; i < m; ++i)
   {
     for (size_t k = 0; k < n; ++k)
